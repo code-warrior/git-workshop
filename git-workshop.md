@@ -18,6 +18,42 @@ For example, consider your computer: Its operating system provides you with a gr
 
 ---
 
+## Configure Git
+
+### Set name
+
+Every commit needs a username and email. Let’s initiate these settings for all repositories and start with your username:
+
+````bash
+$ git config --global user.name "Roy Vanegas"
+````
+
+Check that your username was set:
+
+````bash
+$ git config --global user.name
+````
+
+---
+
+## Configure Git
+
+### Set email
+
+Now set your email:
+
+````bash
+$ git config --global user.email "roy@thecodeeducators"
+````
+
+And check:
+
+````bash
+$ git config --global user.email
+````
+
+---
+
 ## The 3 States of a File in Git’s View
 
 Files in a Git-controlled repository can only be in one of three states: tracked, ignored, or untracked.
