@@ -21,7 +21,6 @@ For example, consider your computer: Its operating system provides you with a gr
 ## Installing Git
 
 1. **Open a GitHub account** at [https://github.com/](https://github.com/)
-
 2. **Download the GitHub client** at [https://desktop.github.com/](https://desktop.github.com/)
 
 Step `2` installs Git at the command line, and also installs a password-less SSH key that is active only when the GitHub client is loaded.
@@ -147,11 +146,8 @@ You may find yourself in a situation where your changes aren’t ready to be com
 There are myriad cheat sheets online. Here are just a few:
 
 - [Atlassian](https://www.atlassian.com/dms/wac/images/landing/git/atlassian_git_cheatsheet.pdf) PDF
-
 - [GitHub](https://education.github.com/git-cheat-sheet-education.pdf) PDF
-
 - [Git Tower](https://www.git-tower.com/blog/git-cheat-sheet/) HTML and other formats and languages
-
 - [Andrew Peterson of NDP Software](http://ndpsoftware.com/git-cheatsheet.html) A fun, interactive cheat sheet
 
 ---
