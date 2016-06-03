@@ -14,7 +14,7 @@ A thorough introduction to Git in three to four hours.
 
 GitHub is a user interface, or UI, wrapper around Git, much like Spotify is a UI wrapper around audio, or iTunes around your music. In each of these, a core technology is wrapped in a graphical user interface.
 
-For example, consider your computer. All major operating systems provide a user interface-driven method for creating a new folder. Additionally, they offer a command line interface that allows you to create a new folder with a simple command: `mkdir new-folder`.
+For example, consider your computer: Its operating system provides you with a graphical user interface, or GUI, for creating new folders, and the GUI in turn invokes a command line interface, or CLI, to create those new folders (`mkdir`).
 
 ---
 
