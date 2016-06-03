@@ -18,6 +18,48 @@ For example, consider your computer: Its operating system provides you with a gr
 
 ---
 
+## The 3 States of a File in Git’s View
+
+Files in a Git-controlled repository can only be in one of three states: tracked, ignored, or untracked.
+
+- **Tracked** means Git will track changes, non-changes, and stages associated with a file.
+- **Ignored** means Git will explicitly ignore modifications, including deletions, of a file.
+- **Untracked** means Git is unaware of a file present in a repository.
+
+---
+
+## The 3 States of a File in Git’s View
+
+### Tracked
+
+When a file has been committed to the repository (via `git add` then `git commit`), the file becomes a tracked file. It can then be in one of three states: modified, staged, or committed.
+
+---
+
+## The 3 States of a File in Git’s View
+
+### Tracked — modified
+
+Modifying a tracked file means that one or more changes were made to the file, but Git has not recorded the changes. The only way to record the changes is to stage them.
+
+---
+
+## The 3 States of a File in Git’s View
+
+### Tracked — staged
+
+Running the `git add .` command stages a file, and one or more files can be added to the staging area with this command. You can then choose to undo the staging of the changes (via `git reset`) or officially record the changes by committing them.
+
+---
+
+## The 3 States of a File in Git’s View
+
+### Tracked — committed
+
+Once staged, the changed files recorded in the staging area can now be moved into the committed state by running the `git commit -m 'MESSAGE'` command and including a brief, 50- to 60-character `MESSAGE` documenting the recorded changes.
+
+---
+
 ## Suggested Readings
 - *Git for Humans* by David Demaree.
   Published by A Book Apart, which is known for publishing easy-to-understand short books that are well-designed.
