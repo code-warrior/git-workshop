@@ -116,6 +116,14 @@ An untracked file is one that is neither being tracked nor being ignored. Git wi
 
 ---
 
+## The Pathways of File Changes
+
+      Working Directory → Index (Staging Area) → Git Directory
+
+As you work with files, their changes move between the working directory, the index, and the Git directory. Modified files live in the working directory, staged files (via the `git add` command) reside in the index, and committed files (via the `git commit` command) go in the Git directory.
+
+---
+
 ## Storing Changes but Not Committing Them
 
 You may find yourself in a situation where your changes aren’t ready to be committed, but shouldn’t be discarded, either. Enter `git stash`. This command will store your changes for later retrieval. You can reclaim your changes with `git stash pop`, which deletes the changes from the stash’s cache, or `git stash apply`, which keeps the changes in the cache.
