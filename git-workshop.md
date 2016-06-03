@@ -123,6 +123,7 @@ You may find yourself in a situation where your changes aren’t ready to be com
 ---
 
 ## Suggested Readings
+
 - *Git for Humans* by David Demaree.
   Published by A Book Apart, which is known for publishing easy-to-understand short books that are well-designed.
 - *[Pro Git](https://git-scm.com/book/en/v2)* by Scott Chacon and Ben Straub.
