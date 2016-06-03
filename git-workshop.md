@@ -116,6 +116,12 @@ An untracked file is one that is neither being tracked nor being ignored. Git wi
 
 ---
 
+## Storing Changes but Not Committing Them
+
+You may find yourself in a situation where your changes aren’t ready to be committed, but shouldn’t be discarded, either. Enter `git stash`. This command will store your changes for later retrieval. You can reclaim your changes with `git stash pop`, which deletes the changes from the stash’s cache, or `git stash apply`, which keeps the changes in the cache.
+
+---
+
 ## Suggested Readings
 - *Git for Humans* by David Demaree.
   Published by A Book Apart, which is known for publishing easy-to-understand short books that are well-designed.
