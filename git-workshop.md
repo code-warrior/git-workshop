@@ -89,5 +89,3 @@ An untracked file is one that is neither being tracked nor being ignored. Git wi
   Available for **free** online, this book is a good, strong reference, and, in paperback, an easy book to carry.
 - *[Version Control with Git](http://shop.oreilly.com/product/0636920022862.do)* by Jon Loeliger and Matthew McCullough.
   Every detail you’d want to know about Git is contained in this tome.
-
----
