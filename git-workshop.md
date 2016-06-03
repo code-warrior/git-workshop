@@ -142,6 +142,20 @@ You may find yourself in a situation where your changes aren’t ready to be com
 
 ---
 
+## Cheat Sheets
+
+There are myriad cheat sheets online. Here are just a few:
+
+- [Atlassian](https://www.atlassian.com/dms/wac/images/landing/git/atlassian_git_cheatsheet.pdf) PDF
+
+- [GitHub](https://education.github.com/git-cheat-sheet-education.pdf) PDF
+
+- [Git Tower](https://www.git-tower.com/blog/git-cheat-sheet/) HTML and other formats and languages
+
+- [Andrew Peterson of NDP Software](http://ndpsoftware.com/git-cheatsheet.html) A fun, interactive cheat sheet
+
+---
+
 ## Suggested Readings
 
 - *Git for Humans* by David Demaree.
