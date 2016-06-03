@@ -60,6 +60,16 @@ Once staged, the changed files recorded in the staging area can now be moved int
 
 ---
 
+## The 3 States of a File in Git’s View
+
+### Untracked
+
+An untracked file is one that is neither being tracked nor being ignored (discussed in the coming section). Git will not record any changes to the file, including deleting it. A file is untracked when it’s included anew in an existing repository. To add an untracked file to the repository, it must be explicitly added using `git add`.
+
+**Note:** Adding an empty folder to a repository won’t appear as untracked until it contains a file.
+
+---
+
 ## Suggested Readings
 - *Git for Humans* by David Demaree.
   Published by A Book Apart, which is known for publishing easy-to-understand short books that are well-designed.
