@@ -62,9 +62,19 @@ Once staged, the changed files recorded in the staging area can now be moved int
 
 ## The 3 States of a File in Git’s View
 
+### Ignored
+
+A file is ignored when it’s listed in Git’s `.gitignore` file. (Note the `.` preceeding the file name.) Unwanted files, such as Mac OS X’s `.DS_Store` file, and folders, such as WebStorm’s `.idea` folder, would be included in `.gitignore`.
+
+A collection of `.gitignore` files is available on [GitHub](https://github.com/github/gitignore).
+
+---
+
+## The 3 States of a File in Git’s View
+
 ### Untracked
 
-An untracked file is one that is neither being tracked nor being ignored (discussed in the coming section). Git will not record any changes to the file, including deleting it. A file is untracked when it’s included anew in an existing repository. To add an untracked file to the repository, it must be explicitly added using `git add`.
+An untracked file is one that is neither being tracked nor being ignored. Git will not record any changes to the file, including deleting it. A file is untracked when it’s included anew in an existing repository. To add an untracked file to the repository, it must be explicitly added using `git add`.
 
 **Note:** Adding an empty folder to a repository won’t appear as untracked until it contains a file.
 
