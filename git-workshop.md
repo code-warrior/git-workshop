@@ -183,6 +183,12 @@ To display the entire history of a file, run `git log -p <filename>`.
 
 ---
 
+## Checking Differences — Images
+
+GitHub or the GitHub desktop client are very useful for seeing differences in images. [Play with this demo](https://github.com/cameronmcefee/Image-Diff-View-Modes/commit/8e95f70c9c47168305970e91021072673d7cdad8) to see how it works.
+
+---
+
 ## Discarding Changes; Resetting a File
 
 Use `git checkout <filename>` to discard all changes to a file and revert back to the state of the file at the last commit.
