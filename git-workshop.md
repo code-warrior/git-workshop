@@ -238,6 +238,65 @@ You can retrieve a file from any point in history by using its commit ID. Let’
 
 ---
 
+## Stepwise Bug Search
+`git bisect`
+
+Imagine finding a bug in your project but not knowing which commit introduced it. The command `git bisect` can help with that.
+
+The idea is simple: set a point in the project’s history where the bug isn’t present, then set another point where the bug was introduced.
+
+---
+
+## Stepwise Bug Search
+`git bisect`
+
+First, locate the commit containing the first appearance of the bug. For this example, assume it’s the latest commit: `cddfc8a`. We’ll need to call this `bad`.
+
+---
+
+## Stepwise Bug Search
+`git bisect`
+
+Next, locate the commit containing the last time the project worked without the bug. Let’s say that was five commits ago: `3379475`. We’ll need to call this `good`.
+
+---
+
+## Stepwise Bug Search
+`git bisect start`
+
+We’ll start the process: `git bisect start`.
+
+---
+
+## Stepwise Bug Search
+`git bisect bad`
+
+We’ll now mark the bad commit: `git bisect bad cddfc8a`.
+
+---
+
+## Stepwise Bug Search
+`git bisect good`
+
+And mark the good commit: `git bisect good 3379475`.
+
+---
+
+## Stepwise Bug Search
+`git bisect skip`
+
+Load your project, then skip through each commit one by one: `git bisect skip`.
+
+---
+
+## Stepwise Bug Search
+`git bisect reset`
+
+When you’ve located the bug, reset the repo and escape the bisect command: `git bisect reset`.
+
+---
+
+
 ## Storing Changes but Not Committing Them
 
 You may find yourself in a situation where your changes aren’t ready to be committed, but shouldn’t be discarded, either. Enter `git stash`. This command will store your changes for later retrieval. You can reclaim your changes with `git stash pop`, which deletes the changes from the stash’s cache, or `git stash apply`, which keeps the changes in the cache.
