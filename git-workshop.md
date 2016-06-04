@@ -216,6 +216,14 @@ Moving files has the same caveats as removing files, discussed previously.
 
 ---
 
+## Retrieving a File at a Certain Point in History
+
+You can retrieve a file from any point in history by using its commit ID. Let’s use the repository for these slides as an example. The file I want is `git-workshop.md`, the commit ID is `28ded0fba2757cd9149e1c13be5293deb4453f06`, and I want to place a copy of the file on my desktop:
+
+        git show 28ded0fba2757cd9149e1c13be5293deb4453f06:git-workshop.md > $HOME/Desktop/git-workshop.md
+
+---
+
 ## Storing Changes but Not Committing Them
 
 You may find yourself in a situation where your changes aren’t ready to be committed, but shouldn’t be discarded, either. Enter `git stash`. This command will store your changes for later retrieval. You can reclaim your changes with `git stash pop`, which deletes the changes from the stash’s cache, or `git stash apply`, which keeps the changes in the cache.
