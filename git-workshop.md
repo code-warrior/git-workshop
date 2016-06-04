@@ -343,6 +343,12 @@ Consider Linux: At some point, the folks at Amazon forked the Linux project to c
 
 ---
 
+## Pull Requests
+
+A pull request means that you as the owner of a forked branch of a project are requesting that the owner of the original branch pull your changes into her/his repository. You may or may not have write access to the repository into which you want your changes pulled.
+
+---
+
 ## Removing Files
 
 Removing tracked files can be done in one of two ways. The first method excludes Git altogether; you simply delete files as you normally would. You still add the deleted files to the staging area as you would any other file. (Yes, you’re even required to stage deleted files.)
