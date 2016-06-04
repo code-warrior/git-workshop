@@ -170,16 +170,23 @@ Running `git diff` shows changes in the working directory, but not the staging a
 ---
 
 ## Checking Differences
+`git log`
+
+To display the entire history of a repository, run `git log`. Append the `--reverse` flag to the command to show the history in reverse.
+
+---
+
+## Checking Differences
 `git log -p`
 
-To display the entire history of a repository, run `git log -p`.
+To display the entire history of a repository, including changes,, run `git log -p`. Append the `--reverse` flag to the command to show the history in reverse.
 
 ---
 
 ## Checking Differences
 `git log -p <filename>`
 
-To display the entire history of a file, run `git log -p <filename>`.
+To display the entire history of a file, run `git log -p <filename>`. Append the `--reverse` flag to the command to show the history in reverse.
 
 ---
 
