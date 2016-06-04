@@ -481,10 +481,25 @@ When you’ve located the bug, reset the repo and escape the bisect command: `gi
 
 ---
 
-
 ## Storing Changes but Not Committing Them
 
 You may find yourself in a situation where your changes aren’t ready to be committed, but shouldn’t be discarded, either. Enter `git stash`. This command will store your changes for later retrieval. You can reclaim your changes with `git stash pop`, which deletes the changes from the stash’s cache, or `git stash apply`, which keeps the changes in the cache.
+
+---
+
+## If Time Permits
+
+- The Git Shell
+
+- What Gets Committed and What Gets Ignored?
+
+- Adding Changes Piecemeal
+
+- Git Tag
+
+- Semantic Versioning
+
+- Setting default branches in GitHub
 
 ---
 
