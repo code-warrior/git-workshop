@@ -98,8 +98,38 @@ If you only wanted to add a single file, you could do so as follows:
 
 ---
 
+## Committing
+`git commit -m <message>`
+
+With files added to the staging area, you’re now ready to commit. Convention dictates that commit messages keep within the limits of 50 to 60 characters. If you cannot summarize your committed work in 60 characters or less, then perhaps your changes are too big. The saying is, “keep your changes small, and commit often.”
 
 ---
+
+## Committing
+`git commit`
+
+Committing changes is the step that registers your changes into the Git directory:
+
+        git commit -m '<message>'
+
+You have to include a `<message>` or you won’t be able to commit the change.
+
+---
+
+## Committing
+`git commit`
+
+Sometimes, you’ll need to explain a small change that has a big impact on your project. For these situations, convention dictates 72-character columns. For example,
+
+        git commit -m 'Change how keyboard emphasis is styled
+    ------------------------------------------------------------------------
+    First, the spacing around the required key character input was removed.
+    Next, the character input was emphasized in bold red. And, lastly, an
+    extra sentence was added to indicate how a user can choose her/his
+    option.'
+
+---
+
 
 ## The 3 States of a File in Git’s View
 
