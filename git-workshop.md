@@ -304,6 +304,13 @@ Then merge `dev`:
 You would have noticed that The Terminal did not ask for any input from you. Most times, however, you want to assign a message to the merge. Appending the `--no-ff` (for no fast forward) to the merge command invokes your text editor so you can associate a message with the merge. Thus, the previous command could be modified as such:
 
         git merge --no-ff dev
+
+---
+
+## Merging
+
+See Vincent Driessen’s  [A Successfuly Git Branching Model](http://nvie.com/posts/a-successful-git-branching-model/) for a more thorough discussion on good branching methodologies.
+
 ---
 
 ## Removing Files
