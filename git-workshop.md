@@ -135,6 +135,13 @@ As you work with files, their changes move between the working directory, the in
 
 ---
 
+## Checking The Repository’s Status
+`git status`
+
+To see differences sitting in the working directory, changes set in the staging area, untracked files, deleted files, etc, run `git status`.
+
+---
+
 ## Checking Differences
 
 File changes can be exposed in the working directory, the staging area, or the history of the project.
