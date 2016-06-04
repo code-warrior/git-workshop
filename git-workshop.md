@@ -149,6 +149,15 @@ As you work with files, their changes move between the working directory, the in
 
 ---
 
+## Cloning a Repository
+`git clone`
+
+Cloning a repository replicates the entire project and Git repository. For example, `git clone git@github.com:code-warrior/git-workshop.git` will create a folder called `git-workshop` in the directory from where you invoked the `clone` command and replicate the entire project and Git history.
+
+This isn’t like downloading a repository on GitHub. When you download a project from GitHub using the `Download ZIP` option, you get the entire project, but not the Git repo.
+
+---
+
 ## Checking The Repository’s Status
 `git status`
 
