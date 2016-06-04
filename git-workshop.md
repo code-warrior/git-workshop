@@ -18,6 +18,20 @@ For example, consider your computer: Its operating system provides you with a gr
 
 ---
 
+## Is GitHub the Only One of Its Kind?
+
+There are other tools that do what GitHub does.
+
+- [Bitbucket](https://bitbucket.org/)
+
+- [Git Tower](https://www.git-tower.com/)
+
+- [Git Lab](https://about.gitlab.com/)
+
+This, of course, is only a partial list.
+
+---
+
 ## Installing Git
 
 1. **Open a GitHub account** at [https://github.com/](https://github.com/)
