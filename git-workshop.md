@@ -285,6 +285,27 @@ And now we create our new branch:
 
 ---
 
+## Merging
+`git merge`
+
+Branches are typically merged into other branches, although they don’t have to be. Issuing the `git merge <branch>` command merges `<branch>` into the current branch. For example, say you want to merge `dev` into `master`. First, checkout `master`:
+
+        git checkout master
+
+Then merge `dev`:
+
+        git merge dev
+
+---
+
+## Merging
+`git merge --no-ff`
+
+You would have noticed that The Terminal did not ask for any input from you. Most times, however, you want to assign a message to the merge. Appending the `--no-ff` (for no fast forward) to the merge command invokes your text editor so you can associate a message with the merge. Thus, the previous command could be modified as such:
+
+        git merge --no-ff dev
+---
+
 ## Removing Files
 
 Removing tracked files can be done in one of two ways. The first method excludes Git altogether; you simply delete files as you normally would. You still add the deleted files to the staging area as you would any other file. (Yes, you’re even required to stage deleted files.)
