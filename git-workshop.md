@@ -313,6 +313,17 @@ See Vincent Driessen’s  [A Successfuly Git Branching Model](http://nvie.com/po
 
 ---
 
+## Pushing
+`git push`
+
+When changes have been placed in the staging area, then committed to the Git directory, they are ready to be pushed (assuming you have a remote repository). The process is simple:
+
+        git push
+
+Your changes will be fetched from your local machine and merged into the remote repository.
+
+---
+
 ## Removing Files
 
 Removing tracked files can be done in one of two ways. The first method excludes Git altogether; you simply delete files as you normally would. You still add the deleted files to the staging area as you would any other file. (Yes, you’re even required to stage deleted files.)
