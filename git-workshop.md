@@ -225,6 +225,66 @@ Use `git checkout <filename>` to discard all changes to a file and revert back t
 
 ---
 
+## Branching
+
+Branching is the ability to take your project in another direction from a certain point. This allows you to create new work based on an existing snapshot of a project without affecting the project. The primary branch Git creates is called `master`. This is merely a convention; you can choose to rename the branch anything else.
+
+---
+
+## Branching
+
+A common branching procedure is to create a `dev` branch in which to do all development, then merge `dev` into `master` at certain points in the development of a project.
+
+Let’s create a `dev` branch from `master`:
+
+        git checkout -b dev
+
+---
+
+## Branching
+
+Now, let’s set up a syncing mechanism to our remote repository on GitHub:
+
+        git push --set-upstream origin dev
+
+---
+
+## Branching
+
+Now, pushes can be made to `dev`:
+
+        git push
+
+---
+
+## Branching
+
+Let’s look at all the remote branches:
+
+        git branch -r
+
+---
+
+## Branching
+
+Let’s look at all the local branches:
+
+        git branch -l
+
+---
+
+## Branching
+
+Branches can be made from other branches. Let’s create a feature branch from `dev` called `new-navigation`. First, we’ll checkout out the `dev` branch:
+
+        git checkout dev
+
+And now we create our new branch:
+
+        git checkout -b new-navigation
+
+---
+
 ## Removing Files
 
 Removing tracked files can be done in one of two ways. The first method excludes Git altogether; you simply delete files as you normally would. You still add the deleted files to the staging area as you would any other file. (Yes, you’re even required to stage deleted files.)
