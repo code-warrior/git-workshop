@@ -141,6 +141,20 @@ Use `git checkout <filename>` to discard all changes to a file and revert back t
 
 ---
 
+## Removing Files
+
+Removing tracked files can be done in one of two ways. The first method excludes Git altogether; you simply delete files as you normally would. You still add the deleted files to the staging area as you would any other file. (Yes, you’re even required to stage deleted files.)
+
+The second method requires the `git rm` command. When files are deleted using `git rm`, deleted files are automatically staged, saving you the trouble of carrying out the `git add` command. This is the only difference between both file removal methods.
+
+---
+
+## Moving Files
+
+Moving files has the same caveats as removing files, discussed previously.
+
+---
+
 ## Storing Changes but Not Committing Them
 
 You may find yourself in a situation where your changes aren’t ready to be committed, but shouldn’t be discarded, either. Enter `git stash`. This command will store your changes for later retrieval. You can reclaim your changes with `git stash pop`, which deletes the changes from the stash’s cache, or `git stash apply`, which keeps the changes in the cache.
