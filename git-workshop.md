@@ -76,6 +76,28 @@ And check:
 ````bash
 $ git config --global user.email
 ````
+---
+
+## Adding
+`git add .`
+
+Once you’re ready to commit work to the staging area, you’ll do so via the `add` flag:
+
+        git add .
+
+The dot (`.`) means add the current directory and all the changes it contains.
+
+---
+
+## Adding
+`git add <filename>`
+
+If you only wanted to add a single file, you could do so as follows:
+
+        git add <filename>
+
+---
+
 
 ---
 
