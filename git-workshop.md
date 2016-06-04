@@ -135,6 +135,47 @@ As you work with files, their changes move between the working directory, the in
 
 ---
 
+## Checking Differences
+
+File changes can be exposed in the working directory, the staging area, or the history of the project.
+
+---
+
+## Checking Differences
+`git diff`
+
+The `git diff` command shows the differences between the last committed changes and the current ones in the working directory.
+
+---
+
+## Checking Differences
+`git diff --cached`
+
+The flag  `--cached` shows changes placed in the staging area that have not yet been committed.  If you decide that you want to revert those changes back into the working directory, you can run `git reset`.
+
+---
+
+## Checking Differences
+`git diff` vs `git diff --cached`
+
+Running `git diff` shows changes in the working directory, but not the staging area. Running the command with the `--cached` flag shows what’s in the staging area, but not the working directory. Thus, these two are mutually exclusive.
+
+---
+
+## Checking Differences
+`git log -p`
+
+To display the entire history of a repository, run `git log -p`.
+
+---
+
+## Checking Differences
+`git log -p <filename>`
+
+To display the entire history of a file, run `git log -p <filename>`.
+
+---
+
 ## Discarding Changes; Resetting a File
 
 Use `git checkout <filename>` to discard all changes to a file and revert back to the state of the file at the last commit.
