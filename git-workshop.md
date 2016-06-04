@@ -324,6 +324,17 @@ Your changes will be fetched from your local machine and merged into the remote 
 
 ---
 
+## Pulling
+`git pull`
+
+If you’re working with someone else, or you simply use multiple machines, you’ll need to pull changes made by others (or by you on a different machine) before you can push your changes. Again, the process is simple:
+
+        git pull
+
+Your local machine will perform Git’s `fetch` feature, followed by its `merge` feature.
+
+---
+
 ## Removing Files
 
 Removing tracked files can be done in one of two ways. The first method excludes Git altogether; you simply delete files as you normally would. You still add the deleted files to the staging area as you would any other file. (Yes, you’re even required to stage deleted files.)
