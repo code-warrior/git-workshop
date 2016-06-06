@@ -76,6 +76,18 @@ And check:
 ````bash
 $ git config --global user.email
 ````
+
+---
+
+## Creating a New Repository
+`git init`
+
+In order to put a project under Git’s control, you’ll need to initialize the process inside the project’s root folder, add the files to Git’s staging area, then commit the files. First, we’ll initialize:
+
+        git init
+
+This is done once for every new project you’d like Git to watch.
+
 ---
 
 ## Adding
