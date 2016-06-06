@@ -90,7 +90,7 @@ This is done once for every new project you’d like Git to watch.
 
 ---
 
-## Adding
+## Adding Files to the Repository
 `git add .`
 
 Once you’re ready to commit work to the staging area, you’ll do so via the `add` flag:
@@ -101,7 +101,7 @@ The dot (`.`) means add the current directory and all the changes it contains.
 
 ---
 
-## Adding
+## Adding Files to the Repository
 `git add <filename>`
 
 If you only wanted to add a single file, you could do so as follows:
@@ -110,14 +110,14 @@ If you only wanted to add a single file, you could do so as follows:
 
 ---
 
-## Committing
+## Committing Files to the Repository
 `git commit -m <message>`
 
 With files added to the staging area, you’re now ready to commit. Convention dictates that commit messages keep within the limits of 50 to 60 characters. If you cannot summarize your committed work in 60 characters or less, then perhaps your changes are too big. The saying is, “keep your changes small, and commit often.”
 
 ---
 
-## Committing
+## Committing Files to the Repository
 `git commit`
 
 Committing changes is the step that registers your changes into the Git directory:
@@ -128,7 +128,7 @@ You have to include a `<message>` or you won’t be able to commit the change.
 
 ---
 
-## Committing
+## Committing Files to the Repository
 `git commit`
 
 Sometimes, you’ll need to explain a small change that has a big impact on your project. For these situations, convention dictates 72-character columns. For example,
