@@ -6,7 +6,7 @@ slidenumbers: true
 A thorough introduction to Git in three to four hours.
 
 ### Roy Vanegas
-#### 4 June 2016
+#### 31 March 2017
 
 ---
 
