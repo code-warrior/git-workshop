@@ -501,15 +501,15 @@ You may find yourself in a situation where your changes aren’t ready to be com
 
 ## If Time Permits
 
-- The Git Shell
+- The Git shell
 
-- What Gets Committed and What Gets Ignored?
+- What gets committed and what gets ignored?
 
-- Adding Changes Piecemeal
+- Adding changes piecemeal
 
-- Git Tag
+- Git tag
 
-- Semantic Versioning
+- Semantic versioning
 
 - Setting default branches in GitHub
 
