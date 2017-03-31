@@ -12,7 +12,7 @@ A thorough introduction to Git in three to four hours.
 
 ## What Exactly is GitHub?
 
-GitHub is a user interface, or UI, wrapper around Git, much like Spotify is a UI wrapper around music. In these cases, a core technology (Git, music) is wrapped in a graphical user interface (GitHub, Spotify).
+GitHub is a user interface, or UI, wrapper around Git, much like Spotify is a UI wrapper around music. In these cases, a core technology (Git; music) is wrapped in a graphical user interface (GitHub; Spotify).
 
 ---
 
