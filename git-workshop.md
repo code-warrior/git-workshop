@@ -147,7 +147,7 @@ Sometimes, you’ll need to explain a small change that has a big impact on your
 
 Files in a Git-controlled repository can only be in one of three states: tracked, ignored, or untracked.
 
-- **Tracked** means Git will track changes, non-changes, and stages associated with a file.
+- **Tracked** means Git will track changes and stages associated with a file.
 - **Ignored** means Git will explicitly ignore modifications, including deletions, of a file.
 - **Untracked** means Git is unaware of a file present in a repository.
 
