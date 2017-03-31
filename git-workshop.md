@@ -197,7 +197,7 @@ A collection of `.gitignore` files is available on [GitHub](https://github.com/g
 
 ### Untracked
 
-An untracked file is one that is neither being tracked nor ignored. Git will not record any changes to the file, including deleting it. A file is untracked when it’s included anew in an existing repository. To add an untracked file to the repository, it must be explicitly added using `git add`.
+An untracked file is one that is neither being tracked nor ignored. Git will not record any changes made to the file, including deleting it. A file is untracked when it’s included anew in an existing repository. To add an untracked file to the repository, it must be explicitly added using `git add`.
 
 **Note:** Adding an empty folder to a repository won’t appear as untracked until it contains a file.
 
