@@ -236,7 +236,7 @@ File changes can be exposed in the working directory, the staging area, or the h
 ## Checking Differences
 `git diff`
 
-The `git diff` command shows the differences between the last committed changes and the current ones in the working directory.
+The `git diff` command shows the differences between the last committed change(s) and the current one(s) in the working directory.
 
 ---
 
