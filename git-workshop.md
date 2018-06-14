@@ -7,7 +7,7 @@ theme: simple, 1
 A thorough introduction to Git in three to four hours.
 
 ### Roy Vanegas
-#### 31 March 2017
+#### 15 June 2018
 
 ---
 
