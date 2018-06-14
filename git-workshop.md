@@ -1,6 +1,6 @@
 autoscale: true
 slidenumbers: true
-theme: simple, 1
+theme: work, 7
 
 # A Git Workshop
 ### A thorough introduction to Git in three to four hours.
@@ -26,7 +26,7 @@ There are other tools that do what GitHub does.
 
 - [Git Lab](https://about.gitlab.com/)
 
-This, of course, is only a partial list.
+This is only a partial list.
 
 ---
 
@@ -42,101 +42,109 @@ Alternatively for Mac users, you can run the `xcode-select --install` command to
 ---
 
 ## Configure Git
-
 ### Set name
 
 Every commit needs a username and email. Let’s initiate these settings for all repositories and start with your username:
 
-````bash
-$ git config --global user.name "Roy Vanegas"
-````
+```bash
+git config --global user.name "Roy Vanegas"
+```
 
 Check that your username was set:
 
-````bash
-$ git config --global user.name
-````
+```bash
+git config --global user.name
+```
 
 ---
 
 ## Configure Git
-
 ### Set email
 
 Now set your email:
 
-````bash
-$ git config --global user.email "roy@thecodeeducators"
-````
+```bash
+git config --global user.email "roy@thecodeeducators"
+```
 
 And check:
 
-````bash
-$ git config --global user.email
-````
+```bash
+git config --global user.email
+```
 
 ---
 
 ## Creating a New Repository
-`git init`
+### `git init`
 
 In order to put a project under Git’s control, you’ll need to initialize the process inside the project’s root folder, add the files to Git’s staging area, then commit the files. First, we’ll initialize:
 
-        git init
+```bash
+git init
+```
 
 This is done once for every new project you’d like Git to watch.
 
 ---
 
 ## Adding Files to the Repository
-`git add .`
+### `git add .`
 
 Once you’re ready to commit work to the staging area, you’ll do so via the `add` flag:
 
-        git add .
+```bash
+git add .
+```
 
 The dot (`.`) means add the current directory and all the changes it contains.
 
 ---
 
 ## Adding Files to the Repository
-`git add <filename>`
+### `git add <filename>`
 
 You could also add a single file, as follows:
 
-        git add <filename>
+```bash
+git add <filename>
+```
 
 ---
 
 ## Committing Files to the Repository
-`git commit -m <message>`
+### `git commit -m <message>`
 
 With files added to the staging area, you’re now ready to commit. Convention dictates that commit messages keep within the limits of 50 to 60 characters. If you cannot summarize your committed work in 60 characters or less, then perhaps your changes are too big. The saying is, “keep your changes small, and commit often.”
 
 ---
 
 ## Committing Files to the Repository
-`git commit`
+### `git commit`
 
 Committing changes is the step that registers your changes into the Git directory:
 
-        git commit -m '<message>'
+```bash
+git commit -m '<message>'
+```
 
 You have to include a `<message>` or you won’t be able to commit the change.
 
 ---
 
 ## Committing Files to the Repository
-`git commit`
+### `git commit`
 
 Sometimes, you’ll need to explain a small change that has a big impact on your project. For these situations, convention dictates 72-character columns. For example,
 
-        git commit -m 'Change how keyboard emphasis is styled
-    ------------------------------------------------------------------------
-    First, the spacing around the required key character input was removed.
-    Next, the character input was emphasized in bold red. And, lastly, an
-    extra sentence was added to indicate how a user can choose her/his
-    option.'
+```bash
+git commit -m 'Change how keyboard emphasis is styled
+------------------------------------------------------------------------
+First, the spacing around the required key character input was removed.
+Next, the character input was emphasized in bold red. And, lastly, an
+extra sentence was added to indicate how a user can choose her/his
+option.'
+```
 
 ---
 
@@ -152,7 +160,6 @@ Files in a Git-controlled repository can only be in one of three states: tracked
 ---
 
 ## The 3 States of a File in Git’s View
-
 ### Tracked
 
 When a file has been committed to the repository (via `git add` then `git commit`), the file becomes a tracked file. It can then be in one of three states: modified, staged, or committed.
@@ -160,7 +167,6 @@ When a file has been committed to the repository (via `git add` then `git commit
 ---
 
 ## The 3 States of a File in Git’s View
-
 ### Tracked — modified
 
 Modifying a tracked file means that one or more changes were made to the file, but Git has not recorded the changes. The only way to record the changes is to stage them.
@@ -168,7 +174,6 @@ Modifying a tracked file means that one or more changes were made to the file, b
 ---
 
 ## The 3 States of a File in Git’s View
-
 ### Tracked — staged
 
 Running the `git add .` command stages a file, and one or more files can be added to the staging area with this command. You can then choose to undo the staging of the changes (via `git reset`) or officially record the changes by committing them.
@@ -176,7 +181,6 @@ Running the `git add .` command stages a file, and one or more files can be adde
 ---
 
 ## The 3 States of a File in Git’s View
-
 ### Tracked — committed
 
 Once staged, the changed files recorded in the staging area can now be moved into the committed state by running the `git commit -m 'MESSAGE'` command and including a brief, 50- to 60-character `MESSAGE` documenting the recorded changes.
@@ -184,7 +188,6 @@ Once staged, the changed files recorded in the staging area can now be moved int
 ---
 
 ## The 3 States of a File in Git’s View
-
 ### Ignored
 
 A file is ignored when it’s listed in Git’s `.gitignore` file. (Note the `.` preceeding the file name.) Unwanted files, such as Mac OS X’s `.DS_Store` file, and folders, such as WebStorm’s `.idea` folder, would be included in `.gitignore`.
@@ -194,7 +197,6 @@ A collection of `.gitignore` files is available on [GitHub](https://github.com/g
 ---
 
 ## The 3 States of a File in Git’s View
-
 ### Untracked
 
 An untracked file is one that is neither being tracked nor ignored. Git will not record any changes made to the file, including deleting it. A file is untracked when it’s included anew in an existing repository. To add an untracked file to the repository, it must be explicitly added using `git add`.
@@ -205,14 +207,20 @@ An untracked file is one that is neither being tracked nor ignored. Git will not
 
 ## The Pathways of File Changes
 
-      Working Directory → Index (Staging Area) → Git Directory
+![fit left](img/IMG_0852.jpg)
 
-As you work with files, their changes move between the working directory, the index, and the Git directory. Modified files live in the working directory, staged files (via the `git add` command) reside in the index, and committed files (via the `git commit` command) go in the Git directory.
+      Repo (Git Directory) → Working Directory → Staging Area/Index
+
+As you work with files, their changes move between the working directory, the index, and the Git directory (repo). Modified files live in the working directory, staged files (via the `git add` command) reside in the index, and committed files (via the `git commit` command) go in the Git directory.
+
+---
+
+![fit](img/IMG_0852.jpg)
 
 ---
 
 ## Cloning a Repository
-`git clone`
+### `git clone`
 
 Cloning a repository replicates the entire project and Git repository. For example, `git clone git@github.com:code-warrior/git-workshop.git` will create a folder called `git-workshop` in the directory from where you invoked the `clone` command and replicate the entire project and Git history.
 
@@ -221,7 +229,7 @@ This isn’t like downloading a repository on GitHub. When you download a projec
 ---
 
 ## Checking The Repository’s Status
-`git status`
+### `git status`
 
 To see differences sitting in the working directory, changes set in the staging area, untracked files, deleted files, etc, run `git status`.
 
@@ -234,42 +242,42 @@ File changes can be exposed in the working directory, the staging area, or the h
 ---
 
 ## Checking Differences
-`git diff`
+### `git diff`
 
 The `git diff` command shows the differences between the last committed change(s) and the current one(s) in the working directory.
 
 ---
 
 ## Checking Differences
-`git diff --cached`
+### `git diff --cached`
 
 The flag  `--cached` shows changes placed in the staging area that have not yet been committed.  If you decide that you want to revert those changes back into the working directory, you can run `git reset`.
 
 ---
 
 ## Checking Differences
-`git diff` vs `git diff --cached`
+### `git diff` vs `git diff --cached`
 
 Running `git diff` shows changes in the working directory, but not the staging area. Running the command with the `--cached` flag shows what’s in the staging area, but not the working directory. Thus, these two are mutually exclusive.
 
 ---
 
 ## Checking Differences
-`git log`
+### `git log`
 
 To display the entire history of a repository, run `git log`. Append the `--reverse` flag to the command to show the history in reverse.
 
 ---
 
 ## Checking Differences
-`git log -p`
+### `git log -p`
 
 To display the entire history of a repository, including changes,, run `git log -p`. Append the `--reverse` flag to the command to show the history in reverse.
 
 ---
 
 ## Checking Differences
-`git log -p <filename>`
+### `git log -p <filename>`
 
 To display the entire history of a file, run `git log -p <filename>`. Append the `--reverse` flag to the command to show the history in reverse.
 
@@ -299,7 +307,9 @@ A common branching procedure is to create a `dev` branch in which to do all deve
 
 Let’s create a `dev` branch from `master`:
 
-        git checkout -b dev
+```bash
+git checkout -b dev
+```
 
 ---
 
@@ -307,7 +317,9 @@ Let’s create a `dev` branch from `master`:
 
 Now, let’s set up a syncing mechanism to our remote repository on GitHub:
 
-        git push --set-upstream origin dev
+```bash
+git push --set-upstream origin dev
+```
 
 ---
 
@@ -315,7 +327,9 @@ Now, let’s set up a syncing mechanism to our remote repository on GitHub:
 
 Now, pushes can be made to `dev`:
 
-        git push
+```bash
+git push
+```
 
 ---
 
@@ -323,7 +337,9 @@ Now, pushes can be made to `dev`:
 
 Let’s look at all the remote branches:
 
-        git branch -r
+```bash
+git branch -r
+```
 
 ---
 
@@ -331,7 +347,9 @@ Let’s look at all the remote branches:
 
 Let’s look at all the local branches:
 
-        git branch -l
+```bash
+git branch -l
+```
 
 ---
 
@@ -339,33 +357,43 @@ Let’s look at all the local branches:
 
 Branches can be made from other branches. Let’s create a feature branch from `dev` called `new-navigation`. First, we’ll checkout out the `dev` branch:
 
-        git checkout dev
+```bash
+git checkout dev
+```
 
 And now we create our new branch:
 
-        git checkout -b new-navigation
+```bash
+git checkout -b new-navigation
+```
 
 ---
 
 ## Merging
-`git merge`
+### `git merge`
 
 Branches are typically merged into other branches, although they don’t have to be. Issuing the `git merge <branch>` command merges `<branch>` into the current branch. For example, say you want to merge `dev` into `master`. First, checkout `master`:
 
-        git checkout master
+```bash
+git checkout master
+```
 
 Then merge `dev`:
 
-        git merge dev
+```bash
+git merge dev
+```
 
 ---
 
 ## Merging
-`git merge --no-ff`
+### `git merge --no-ff`
 
 You would have noticed that The Terminal did not ask for any input from you. Most times, however, you want to assign a message to the merge. Appending the `--no-ff` (for no fast forward) to the merge command invokes your text editor so you can associate a message with the merge. Thus, the previous command could be modified as such:
 
-        git merge --no-ff dev
+```bash
+git merge --no-ff dev
+```
 
 ---
 
@@ -376,22 +404,26 @@ See Vincent Driessen’s  [A Successfuly Git Branching Model](http://nvie.com/po
 ---
 
 ## Pushing
-`git push`
+### `git push`
 
 When changes have been placed in the staging area, then committed to the Git directory, they are ready to be pushed (assuming you have a remote repository). The process is simple:
 
-        git push
+```bash
+git push
+```
 
 Your changes will be fetched from your local machine and merged into the remote repository.
 
 ---
 
 ## Pulling
-`git pull`
+### `git pull`
 
 If you’re working with someone else, or you simply use multiple machines, you’ll need to pull changes made by others (or by you on a different machine) before you can push your changes. Again, the process is simple:
 
-        git pull
+```bash
+git pull
+```
 
 Your local machine will perform Git’s `fetch` feature, followed by its `merge` feature.
 
@@ -429,12 +461,14 @@ Moving files has the same caveats as removing files, discussed previously.
 
 You can retrieve a file from any point in history by using its commit ID. Let’s use the repository for these slides as an example. The file I want is `git-workshop.md`, the commit ID is `28ded0fba2757cd9149e1c13be5293deb4453f06`, and I want to place a copy of the file on my desktop:
 
-        git show 28ded0fba2757cd9149e1c13be5293deb4453f06:git-workshop.md > $HOME/Desktop/git-workshop.md
+```bash
+git show 28ded0fba2757cd9149e1c13be5293deb4453f06:git-workshop.md > $HOME/Desktop/git-workshop.md
+```
 
 ---
 
 ## Stepwise Bug Search
-`git bisect`
+### `git bisect`
 
 Imagine finding a bug in your project but not knowing which commit introduced it. The command `git bisect` can help with that.
 
@@ -443,51 +477,71 @@ The idea is simple: set a point in the project’s history where the bug isn’t
 ---
 
 ## Stepwise Bug Search
-`git bisect`
+### `git bisect`
 
-First, locate the commit containing the first appearance of the bug. For this example, assume it’s the latest commit: `cddfc8a`. We’ll need to call this `bad`.
-
----
-
-## Stepwise Bug Search
-`git bisect`
-
-Next, locate the commit containing the last time the project worked without the bug. Let’s say that was five commits ago: `3379475`. We’ll need to call this `good`.
+First, locate the commit containing the first appearance of the bug. For this example, assume it’s the latest commit: `cddfc8a`. We’ll call this `bad`.
 
 ---
 
 ## Stepwise Bug Search
-`git bisect start`
+### `git bisect`
 
-We’ll start the process: `git bisect start`.
-
----
-
-## Stepwise Bug Search
-`git bisect bad`
-
-We’ll now mark the bad commit: `git bisect bad cddfc8a`.
+Next, locate the commit containing the last time the project worked without the bug. Let’s say that was five commits ago: `3379475`. We’ll call this `good`.
 
 ---
 
 ## Stepwise Bug Search
-`git bisect good`
+### `git bisect start`
 
-And mark the good commit: `git bisect good 3379475`.
+We’ll start the process:
 
----
-
-## Stepwise Bug Search
-`git bisect skip`
-
-Load your project, then skip through each commit one by one: `git bisect skip`.
+```bash
+git bisect start
+```
 
 ---
 
 ## Stepwise Bug Search
-`git bisect reset`
+### `git bisect bad`
 
-When you’ve located the bug, reset the repo and escape the bisect command: `git bisect reset`.
+We’ll now mark the bad commit:
+
+```bash
+git bisect bad cddfc8a
+```
+
+---
+
+## Stepwise Bug Search
+### `git bisect good`
+
+And mark the good commit:
+
+```bash
+git bisect good 3379475
+```
+
+---
+
+## Stepwise Bug Search
+### `git bisect skip`
+
+Load your project into a browser, then skip through each commit one by one:
+
+```bash
+git bisect skip
+```
+
+---
+
+## Stepwise Bug Search
+### `git bisect reset`
+
+When you’ve located the bug, reset the repo and escape the bisect command:
+
+```bash
+git bisect reset
+```
 
 ---
 
@@ -499,17 +553,12 @@ You may find yourself in a situation where your changes aren’t ready to be com
 
 ## If Time Permits
 
-- The Git shell
-
-- What gets committed and what gets ignored?
-
-- Adding changes piecemeal
-
-- Git tag
-
-- Semantic versioning
-
-- Setting default branches in GitHub
+- The Git shell  
+- What gets committed and what gets ignored?  
+- Adding changes piecemeal  
+- Git tag  
+- Semantic versioning  
+- Setting default branches in GitHub  
 
 ---
 
