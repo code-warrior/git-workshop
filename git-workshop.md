@@ -1,5 +1,6 @@
 autoscale: true
 slidenumbers: true
+theme: simple, 1
 
 # A Git Workshop
 
