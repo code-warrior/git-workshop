@@ -1,1 +1,83 @@
-{"importDate":1571773880.3094621,"type":1,"customizations":{},"baseCustomizations":{"header":{"textScale":1,"textAlignment":0,"lineHeight":1,"font":{"familyName":"IBM Plex Sans","fullName":"IBMPlexSans-SemiBold","memberName":"SemiBold"},"color":{"red":0.21568627450980393,"green":0.21568627450980393,"blue":0.21568627450980393}},"background":{"color":{"red":1,"green":0.9648286035029221,"blue":0.89110259826789295}},"code":{"colorMode":"manual","colors":[{"red":0,"green":0.48627450980392156,"blue":0.98431372549019602},{"red":0.58823529411764708,"green":0.58823529411764708,"blue":0.58823529411764708},{"red":0.99215686274509807,"green":0.14748162409315971,"blue":0.027304797278592162},{"red":0,"green":0.86274509803921573,"blue":0},{"red":0,"green":0.86274509803921573,"blue":0}],"lineHeight":1,"font":{"familyName":"IBM Plex Mono","fullName":"IBMPlexMono-BoldItalic","memberName":"Bold Italic"},"seed":0}},"identifier":"8D3B6F12-42EF-4F7D-8794-1BC1AB007259","creationDate":1571773880.3094621,"baseTheme":{"identifier":"simple","variantIdentifier":"scheme1"},"name":"Copy of Copy of Simple"}
+{
+    "importDate": 1571773880.309462,
+    "type": 1,
+    "customizations": {},
+    "baseCustomizations":
+    {
+        "header":
+        {
+            "textScale": 1,
+            "textAlignment": 0,
+            "lineHeight": 1,
+            "font":
+            {
+                "familyName": "IBM Plex Sans",
+                "fullName": "IBMPlexSans-SemiBold",
+                "memberName": "SemiBold"
+            },
+            "color":
+            {
+                "red": 0.21568627450980393,
+                "green": 0.21568627450980393,
+                "blue": 0.21568627450980393
+            }
+        },
+        "background":
+        {
+            "color":
+            {
+                "red": 1,
+                "green": 0.9648286035029221,
+                "blue": 0.891102598267893
+            }
+        },
+        "code":
+        {
+            "colorMode": "manual",
+            "colors":
+            [
+                {
+                    "red": 0,
+                    "green": 0.48627450980392156,
+                    "blue": 0.984313725490196
+                },
+                {
+                    "red": 0.5882352941176471,
+                    "green": 0.5882352941176471,
+                    "blue": 0.5882352941176471
+                },
+                {
+                    "red": 0.9921568627450981,
+                    "green": 0.1474816240931597,
+                    "blue": 0.027304797278592162
+                },
+                {
+                    "red": 0,
+                    "green": 0.8627450980392157,
+                    "blue": 0
+                },
+                {
+                    "red": 0,
+                    "green": 0.8627450980392157,
+                    "blue": 0
+                }
+            ],
+            "lineHeight": 1,
+            "font":
+            {
+                "familyName": "IBM Plex Mono",
+                "fullName": "IBMPlexMono-BoldItalic",
+                "memberName": "Bold Italic"
+            },
+            "seed": 0
+        }
+    },
+    "identifier": "8D3B6F12-42EF-4F7D-8794-1BC1AB007259",
+    "creationDate": 1571773880.309462,
+    "baseTheme":
+    {
+        "identifier": "simple",
+        "variantIdentifier": "scheme1"
+    },
+    "name": "Simple by Roy Vanegas"
+}
