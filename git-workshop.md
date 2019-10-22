@@ -35,9 +35,17 @@ This is only a partial list.
 1. **Open a GitHub account** at [https://github.com/](https://github.com/)
 2. **Download the GitHub client** at [https://desktop.github.com/](https://desktop.github.com/)
 
-Step `2` installs Git at the command line, and also installs a password-less SSH key that is active only when the GitHub client is loaded.
+---
 
-Alternatively for Mac users, you can run the `xcode-select --install` command to install Git and other command line tools without installing the GitHub client. Choosing this option will require you to manually set up an SSH key. Read [this tutorial](http://www.essential-html.com/generating-an-ssh-key-for-mac-os-x-with-github-or-bitbucket/) on how to do it.
+## Using Git at The Command Line
+### Mac Users
+Run `xcode-select --install` in The Terminal to install Git and other command line tools. Choosing this option will require you to manually set up an SSH key. Read [this tutorial](http://www.essential-html.com/generating-an-ssh-key-for-mac-os-x-with-github-or-bitbucket/) on how to do it.
+
+### Windows
+In GitHub Desktop, choose `Git Bash` using the following path.
+`File → Options (CNTRL + ,) → Advanced → Shell → Git Bash`
+
+Then, type ``CNTRL + ` `` to launch Git at the command line.
 
 ---
 
