@@ -280,7 +280,7 @@ To display the entire history of a repository, run `git log`. Append the `--reve
 ## Checking Differences
 ### `git log -p`
 
-To display the entire history of a repository, including changes,, run `git log -p`. Append the `--reverse` flag to the command to show the history in reverse.
+To display the entire history of a repository, including changes, run `git log -p`. Append the `--reverse` flag to the command to show the history in reverse.
 
 ---
 
@@ -407,7 +407,7 @@ git merge --no-ff dev
 
 ## Merging
 
-See Vincent Driessen’s  [A Successfuly Git Branching Model](http://nvie.com/posts/a-successful-git-branching-model/) for a more thorough discussion on good branching methodologies.
+See Vincent Driessen’s [A Successful Git Branching Model](http://nvie.com/posts/a-successful-git-branching-model/) for a more thorough discussion on good branching methodologies.
 
 ---
 
