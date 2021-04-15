@@ -1,6 +1,6 @@
 autoscale: true
 slidenumbers: true
-theme: simple, 1
+theme: Simple by Roy Vanegas, 1
 
 # A Git Workshop
 ### A thorough introduction to Git in three to four hours.
