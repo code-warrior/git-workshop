@@ -83,6 +83,13 @@ git config --global user.email
 
 ---
 
+## Configure Git
+### Generate an SSH Key in macOS For Use With GitHub/BitBucket
+
+[http://www.essential-html.com/generating-an-ssh-key-for-mac-os-x-with-github-or-bitbucket/](http://www.essential-html.com/generating-an-ssh-key-for-mac-os-x-with-github-or-bitbucket/)
+
+---
+
 ## Creating a New Repository
 ### `git init`
 
