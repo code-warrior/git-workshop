@@ -72,7 +72,7 @@ git config --global user.name
 Now set your email:
 
 ```bash
-git config --global user.email "roy@thecodeeducators"
+git config --global user.email "roy@thecodeeducators.com"
 ```
 
 And check:
