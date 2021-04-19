@@ -3,10 +3,10 @@ slidenumbers: true
 theme: Simple by Roy Vanegas, 1
 
 # A Git Workshop
-### A thorough introduction to Git in three to four hours.
+### A thorough introduction to Git in two 90-minute sessions.
 
 #### Roy Vanegas
-#### 22–23 October 2019
+#### 19 and 26 April 2021
 
 ---
 
