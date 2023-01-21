@@ -40,9 +40,9 @@ There are many control systems on the market today, all older than Git:
 
 ---
 
-- [Git Lab](https://about.gitlab.com/)
+# No Reason to Use Any of Them
 
-This is only a partial list.
+---
 
 ---
 
