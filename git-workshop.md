@@ -1,6 +1,10 @@
 autoscale: true
 slidenumbers: true
-theme: work, 7
+slidecount: true
+build-lists: true
+slide-transition: true
+slide-transition: fade(0.3)
+theme: huerta, 2
 
 # A Git Workshop
 ### A thorough introduction to Git in three to four hours.
