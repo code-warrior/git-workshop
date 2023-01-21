@@ -178,7 +178,6 @@ option.'
 
 ---
 
-
 ## The 3 States of a File in Git’s View
 
 Files in a Git-controlled repository can only be in one of three states: tracked, ignored, or untracked.
