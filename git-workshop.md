@@ -44,6 +44,15 @@ There are many control systems on the market today, all older than Git:
 
 ---
 
+# Git Features
+
+Highlights among its myriad features include…
+
+1. A server for easy collaboration
+2. Optimized for local commands/operations
+3. Rich in commands
+4. Employs a branching mechanism that encourages nonlinear development for testing and exploring
+
 ---
 
 ## Installing Git
