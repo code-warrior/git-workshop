@@ -183,9 +183,9 @@ option.'
 
 Files in a Git-controlled repository can only be in one of three states: tracked, ignored, or untracked.
 
-- **Tracked** means Git will track changes and stages associated with a file.
-- **Ignored** means Git will explicitly ignore modifications, including deletions, of a file.
-- **Untracked** means Git is unaware of a file present in a repository.
+* **Tracked** means Git will track changes and stages associated with a file.
+* **Ignored** means Git will explicitly ignore modifications, including deletions, of a file.
+* **Untracked** means Git is unaware of a file present in a repository.
 
 ---
 
@@ -609,12 +609,12 @@ You may find yourself in a situation where your changes aren’t ready to be com
 
 ## If Time Permits
 
-- The Git shell  
-- What gets committed and what gets ignored?  
-- Adding changes piecemeal  
-- Git tag  
-- Semantic versioning  
-- Setting default branches in GitHub  
+* The Git shell  
+* What gets committed and what gets ignored?  
+* Adding changes piecemeal  
+* Git tag  
+* Semantic versioning  
+* Setting default branches in GitHub  
 
 ---
 
@@ -622,20 +622,20 @@ You may find yourself in a situation where your changes aren’t ready to be com
 
 There are myriad cheat sheets online. Here are just a few:
 
-- [Atlassian](https://www.atlassian.com/dms/wac/images/landing/git/atlassian_git_cheatsheet.pdf) PDF
-- [GitHub](https://education.github.com/git-cheat-sheet-education.pdf) PDF
-- [Git Tower](https://www.git-tower.com/blog/git-cheat-sheet/) HTML and other formats and languages
-- [Andrew Peterson of NDP Software](http://ndpsoftware.com/git-cheatsheet.html) A fun, interactive cheat sheet
+* [Atlassian](https://www.atlassian.com/dms/wac/images/landing/git/atlassian_git_cheatsheet.pdf) PDF
+* [GitHub](https://education.github.com/git-cheat-sheet-education.pdf) PDF
+* [Git Tower](https://www.git-tower.com/blog/git-cheat-sheet/) HTML and other formats and languages
+* [Andrew Peterson of NDP Software](http://ndpsoftware.com/git-cheatsheet.html) A fun, interactive cheat sheet
 
 ---
 
 ## Suggested Readings
 
-- *Git for Humans* by David Demaree.
+* *Git for Humans* by David Demaree.
   Published by A Book Apart, which is known for publishing easy-to-understand short books that are well-designed.
-- *[Pro Git](https://git-scm.com/book/en/v2)* by Scott Chacon and Ben Straub.
+* *[Pro Git](https://git-scm.com/book/en/v2)* by Scott Chacon and Ben Straub.
   **Free** in eBook formats, this is a good reference and very detailed.
-- *[Git Pocket Guide](http://chimera.labs.oreilly.com/books/1230000000561/index.html)* by Richard Silverman.
+* *[Git Pocket Guide](http://chimera.labs.oreilly.com/books/1230000000561/index.html)* by Richard Silverman.
   Available for **free** online, this book is a good, strong reference, and, in paperback, an easy book to carry.
-- *[Version Control with Git](http://shop.oreilly.com/product/0636920022862.do)* by Jon Loeliger and Matthew McCullough.
+* *[Version Control with Git](http://shop.oreilly.com/product/0636920022862.do)* by Jon Loeliger and Matthew McCullough.
   Every detail you’d want to know about Git is contained in this tome.
