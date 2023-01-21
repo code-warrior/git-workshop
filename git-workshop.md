@@ -36,7 +36,7 @@ There are many control systems on the market today, all older than Git:
 * [Subversion](https://subversion.apache.org/), more commonly known as SVN
 * [Perforce](https://www.perforce.com/products/helix-core)
 * [BitKeeper](https://www.bitkeeper.org/), which was used for the Linux Kernel until 2005, and from which Git takes much influence
-* [Mercurial](https://www.mercurial-scm.org/), is most like Git
+* [Mercurial](https://www.mercurial-scm.org/), most like Git
 
 ---
 
@@ -46,7 +46,7 @@ There are many control systems on the market today, all older than Git:
 
 # [fit] Git Features
 
-Highlights among its myriad features include…
+Highlights include…
 
 1. A server for easy collaboration
 2. Optimized for local commands/operations
@@ -67,7 +67,7 @@ The official site for Git is [https://git-scm.com/](https://git-scm.com/), where
 ## Configure Git
 ### Set name
 
-Every commit needs a username and email. Let’s initiate these settings for all repositories and start with your username:
+Every commit needs a user’s name and email. Let’s initiate these settings globally, starting with your name:
 
 ```bash
 git config --global user.name "Roy Vanegas"
