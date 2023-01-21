@@ -24,6 +24,7 @@ Git is a free, open-source, **distributed version control system**, or DVCS. Itâ
 * Designed to version control very, very large programming projects, like Linux
 * Released in April 2005
 * Made more approachable by Junio Hamano, who manages Git today
+* The most popular DVCS in the world
 
 ---
 
