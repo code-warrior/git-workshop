@@ -16,7 +16,7 @@ theme: huerta, 2
 
 # What is Git?
 
-Git is a free, open-source, **distributed version control system**. It’s a content tracker.
+Git is a free, open-source, **distributed version control system**, or DVCS. It’s a content tracker.
 
 * **Distributed** means no one node is more important than any another; all nodes have exact clones of the repository
 * **Version control** means you control what code and which assets goes into versions of your project
