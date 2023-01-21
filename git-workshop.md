@@ -27,13 +27,17 @@ Git is a free, open-source, **distributed version control system**. It’s a con
 
 ---
 
-## Is GitHub the Only One of Its Kind?
+# Other Versioning Systems
 
-There are other tools that do what GitHub does.
+There are many control systems on the market today, all older than Git:
 
-- [Bitbucket](https://bitbucket.org/)
+* [CVS](https://savannah.nongnu.org/projects/cvs)
+* [Subversion](https://subversion.apache.org/), more commonly known as SVN
+* [Perforce](https://www.perforce.com/products/helix-core)
+* [BitKeeper](https://www.bitkeeper.org/), which was used for the Linux Kernel until 2005, and from which Git takes much influence
+* [Mercurial](https://www.mercurial-scm.org/), is most like Git
 
-- [Git Tower](https://www.git-tower.com/)
+---
 
 - [Git Lab](https://about.gitlab.com/)
 
