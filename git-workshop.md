@@ -14,7 +14,7 @@ theme: work, 1
 
 ---
 
-# What is Git?
+# [fit]  What is Git?
 
 Git is a free, open-source, **distributed version control system**, or DVCS. It’s a content tracker.
 
@@ -28,7 +28,7 @@ Git is a free, open-source, **distributed version control system**, or DVCS. It�
 
 ---
 
-# Other Versioning Systems
+# [fit]  Other Versioning Systems
 
 There are many control systems on the market today, all older than Git:
 
@@ -40,11 +40,11 @@ There are many control systems on the market today, all older than Git:
 
 ---
 
-# No Reason to Use Any of Them
+# [fit] No Reason to Use Any of Them
 
 ---
 
-# Git Features
+# [fit] Git Features
 
 Highlights among its myriad features include…
 
@@ -55,7 +55,7 @@ Highlights among its myriad features include…
 
 ---
 
-## Installing Git
+# [fit] Installing Git
 
 1. **Open a GitHub account** at [https://github.com/](https://github.com/)
 2. **Download the GitHub client** at [https://desktop.github.com/](https://desktop.github.com/)
