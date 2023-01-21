@@ -629,6 +629,13 @@ There are myriad cheat sheets online. Here are just a few:
 
 ---
 
+## Interesting Links
+
+* [Celebrating 15 years of Git: An interview with Git maintainer Junio Hamano] (https://github.blog/2020-04-07-celebrating-15-years-of-git-an-interview-with-git-maintainer-junio-hamano/) (17 April 2020)
+* [Tech Talk: Linus Torvalds on git](https://www.youtube.com/watch?v=4XpnKHJAok8) (14 May 2007)
+
+---
+
 ## Suggested Readings
 
 * *Git for Humans* by David Demaree.
