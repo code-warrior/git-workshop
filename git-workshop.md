@@ -14,9 +14,16 @@ theme: huerta, 2
 
 ---
 
-## What Exactly is GitHub?
+## What is Git?
 
-GitHub is a user interface, or UI, wrapper around Git, much like Spotify is a UI wrapper around music. In these cases, a core technology (Git; music) is wrapped in a graphical user interface (GitHub; Spotify).
+Git is a free, open-source, **distributed version control system**. It’s a content tracker.
+
+* **Distributed** means no one node is more important than any another; all nodes have exact clones of the repository
+* **Version control** means you control what code and which assets goes into versions of your project
+* In other words, it tracks the content of your project
+* Designed to version control very, very large programming projects, like Linux
+* Released in April 2005
+* Made more approachable by Junio Hamano, who manages Git today
 
 ---
 
