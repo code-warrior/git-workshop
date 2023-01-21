@@ -8,9 +8,13 @@ theme: huerta, 2
 
 # A Git Workshop
 ### A thorough introduction to Git in three to four hours.
+# An Introduction to Git (and Some GitHub)
 
 #### Roy Vanegas
 #### 15 June 2018
+## Roy Vanegas
+
+### Spring 2023
 
 ---
 
