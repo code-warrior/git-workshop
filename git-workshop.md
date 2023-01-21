@@ -14,7 +14,7 @@ theme: huerta, 2
 
 ---
 
-## What is Git?
+# What is Git?
 
 Git is a free, open-source, **distributed version control system**. It’s a content tracker.
 
