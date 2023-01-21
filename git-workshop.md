@@ -65,6 +65,7 @@ The official site for Git is [https://git-scm.com/](https://git-scm.com/), where
 ---
 
 ## Configure Git
+
 ### Set name
 
 Every commit needs a user’s name and email. Let’s initiate these settings globally, starting with your name:
