@@ -4,7 +4,7 @@ slidecount: true
 build-lists: true
 slide-transition: true
 slide-transition: fade(0.3)
-theme: huerta, 2
+theme: work, 1
 
 # An Introduction to Git (and Some GitHub)
 
